@@ -35,7 +35,7 @@ print(f"""
 	{Green}H  HHHHH  HH{white} 88'  `88 Y8ooooo.   88   88ooood8 88'  `88
 	{Green}H  HHHHH  HH{white} 88.  .88       88   88   88.  ... 88    88
 	{Green}H  HHHHH  HH{white} `88888P' `88888P'   dP   `88888P' dP    dP
-	{Green}HHHHHHHHHHHH{white} Telegram : https://t.me/HostenEgypt0
+	{Green}HHHHHHHHHHHH{white} {yellow}Telegram : https://t.me/HostenEgypt0{white}
 
 {yellow}    1- Chack host open
     2- Unlock file Hosten
@@ -219,14 +219,14 @@ def Unlock_file():
 
     try:
         file_lock = input("Enter name file Hosten lock: ")
-        formula = input("Enter the type of formula file: ")
         file = open(file_lock,"r").read()
         Unlock = decode(file)
-        file_open = open(f"{file_lock}.{formula}","a").write(Unlock)
+        file_open = open(f"{file_lock}","a").write(Unlock)
         print(f"{yellow}masseg: Saved successfully!")
         print(f"{yellow}masseg: Thank you for using the tool Hosten")
+	exit()
     except FileNotFoundError:
-        print(f"{red}Error: Not Found File ({Enter_file}). !!{white}")
+        print(f"{red}Error: Not Found File ({file_lock}). !!{white}")
         exit()
 
 
