@@ -35,7 +35,7 @@ print(f"""
 	{Green}H  HHHHH  HH{white} 88'  `88 Y8ooooo.   88   88ooood8 88'  `88
 	{Green}H  HHHHH  HH{white} 88.  .88       88   88   88.  ... 88    88
 	{Green}H  HHHHH  HH{white} `88888P' `88888P'   dP   `88888P' dP    dP
-	{Green}HHHHHHHHHHHH{white} {yellow}Telegram : https://t.me/HostenEgypt0{white}
+	{Green}HHHHHHHHHHHH Telegram : https://t.me/HostenEgypt0{white}
 
 {yellow}    1- Chack host open
     2- Unlock file Hosten
