@@ -224,7 +224,6 @@ def Unlock_file():
         file_open = open(f"{file_lock}","a").write(Unlock)
         print(f"{yellow}masseg: Saved successfully!")
         print(f"{yellow}masseg: Thank you for using the tool Hosten")
-	exit()
     except FileNotFoundError:
         print(f"{red}Error: Not Found File ({file_lock}). !!{white}")
         exit()
