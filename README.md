@@ -9,6 +9,5 @@ tm.me/HostenEgypt0
 cd Hosten
 python3 Hosten.py
 
-1:
-Chack host is open or not, if host is green = open, else if host is red = lock in the your SIM Card
+Chack connected host in your SIM offline
 
