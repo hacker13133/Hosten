@@ -9,5 +9,5 @@ tm.me/HostenEgypt0
 cd Hosten
 python3 Hosten.py
 
-Chack connected host in your SIM offline
+Chack connected host in your SIM offline!!
 
